@@ -1,65 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>Os Protagonistas - Página Inicial</title>
-  <meta name="viewport" content="widht=device-widht, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <style>
-    .fakeimg {
-      height: 200px;
-      background: #aaa;
-    }
-    .logo {
-      max-width: 150px;
-    }
-  </style> <meta charset="utf-8">
-</head>
+    <title>Os Protagonistas - Nosso Grupo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> </head>
 <body>
 
-<div class="p-5 bg-warning text-dark text-center">
-  <img src="img/OS PROTAGONISTAS (1).png" alt="Logo do Grupo Os Protagonistas" class="logo mb-3"> <!-- Troque pelo caminho da logo -->
-  <h1>Os Protagonistas</h1>
-  <p>Bem-vindos ao nosso site!</p> 
-</div>
-
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <div class="container-fluid">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link active" href="grupo.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Nosso Grupo</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-item" href="formulario.html">Contato</a>
-      </li> 
-    </ul>
-  </div>
+<nav class="navbar navbar-expand-sm sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand h1 text-warning" href="index.html">Os Protagonistas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="grupo.html">Nosso Grupo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
 
 <div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-12 text-center">
-      <h2>Integrantes</h2>
-      <p class="lead">Esses são os protagonistas que fazem parte do nosso grupo:</p>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Alissa Gabriele</li>
-        <li class="list-group-item">Maria Luiza</li>
-        <li class="list-group-item">Gustavo Ponce</li>
-        <li class="list-group-item">Andre Chepak</li>
-        <li class="list-group-item">Maria Clara Cachoba</li>
-        <li class="list-group-item">Isadora Kamille</li>
-        <li class="list-group-item">Francisco Rafael</li>
-      </ul>
+    <div class="text-center mb-5">
+        <h2>Conheça Nossa Equipe</h2>
+        <p class="lead text-white-50">Os talentos por trás dos nossos projetos.</p>
     </div>
-  </div>
+
+    <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow-lg">
+                <img src="img/alissa.jpeg" class="card-img-top" alt="Alissa Gabriele">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Alissa Gabriele</h5>
+                    <p class="card-text text-white-50">Apaixonada por programação, design e criatividade. Sempre trazendo inovação para o grupo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow-lg">
+                <img src="img/malu.jpeg" class="card-img-top" alt="Maria Luiza">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Maria Luiza</h5>
+                    <p class="card-text text-white-50">Organizada e dedicada, garante que todas as etapas do trabalho sejam concluídas com excelência.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow-lg">
+                <img src="img/gustavo.jpeg" class="card-img-top" alt="Gustavo Ponce">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Gustavo Ponce</h5>
+                    <p class="card-text text-white-50">Criativo e estratégico, sempre trazendo novas ideias para melhorar o projeto.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow-lg">
+                <img src="img/andre.jpeg" class="card-img-top" alt="Andre Chepak">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Andre Chepak</h5>
+                    <p class="card-text text-white-50">Colaborador dedicado, responsável por soluções práticas e eficazes.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow-lg">
+                <img src="img/mariaclara.jpeg" class="card-img-top" alt="Maria Clara Cachoba">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Maria Clara Cachoba</h5>
+                    <p class="card-text text-white-50">Detalhista, contribui para que o projeto tenha qualidade e cuidado em cada parte.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow-lg">
+                <img src="img/isadora.jpeg" class="card-img-top" alt="Isadora Kamille">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Isadora Kamille</h5>
+                    <p class="card-text text-white-50">Comunicativa e motivadora, mantém o grupo unido e focado nos objetivos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mx-auto"> <div class="card shadow-lg">
+                <img src="img/francisco.jpeg" class="card-img-top" alt="Francisco Rafael">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Francisco Rafael</h5>
+                    <p class="card-text text-white-50">Dedicado e persistente, sempre em busca das melhores soluções para os desafios.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="mt-5 p-4 bg-dark text-white text-center">
-  <p>Os Protagonistas © 2025</p>
-</div>
+<footer class="mt-5 p-4 text-white text-center footer">
+    <p>Os Protagonistas © 2025</p>
+</footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

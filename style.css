@@ -1,0 +1,103 @@
+/* Importa uma fonte elegante do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;500&display=swap');
+
+/* ---- ESTILOS GERAIS ---- */
+body {
+    background-color: #121212; /* Um preto mais suave que o #000 */
+    color: #f0f0f0; /* Um branco levemente acinzentado para texto */
+    font-family: 'Montserrat', sans-serif; /* Fonte limpa para textos corridos */
+}
+
+/* ---- TÍTULOS E TEXTOS DE DESTAQUE ---- */
+h1, h2, h3, h4, h5, .display-4 {
+    font-family: 'Playfair Display', serif; /* Fonte serifada e luxuosa para títulos */
+    color: #D4AF37; /* Tom de dourado */
+}
+
+/* ---- NAVBAR ---- */
+.navbar {
+    background-color: rgba(18, 18, 18, 0.8) !important; /* Fundo escuro com leve transparência */
+    backdrop-filter: blur(10px); /* Efeito de vidro fosco no fundo */
+    border-bottom: 1px solid #D4AF37;
+}
+
+.navbar .nav-link {
+    color: #f0f0f0 !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.navbar .nav-link:hover, .navbar .nav-link.active {
+    color: #D4AF37 !important; /* Dourado no hover e no link ativo */
+    transform: translateY(-2px);
+}
+
+/* ---- BOTÕES ---- */
+.btn-golden {
+    background-color: #D4AF37;
+    color: #121212;
+    border: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    transition: all 0.3s ease;
+}
+
+.btn-golden:hover {
+    background-color: #f0f0f0;
+    color: #121212;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
+/* ---- CARDS DOS MEMBROS (página grupo.html) ---- */
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efeito de zoom no hover */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border-color: #D4AF37;
+}
+
+.card img {
+    height: 300px; /* Um pouco mais de altura */
+    object-fit: cover;
+    filter: grayscale(30%); /* Deixa a foto um pouco menos saturada */
+    transition: filter 0.3s ease;
+}
+
+.card:hover img {
+    filter: grayscale(0%); /* Cor total no hover */
+}
+
+.card .card-title {
+    color: #D4AF37;
+}
+
+/* ---- FORMULÁRIO (página contato.html) ---- */
+.form-control {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    color: #f0f0f0;
+}
+
+.form-control:focus {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    border-color: #D4AF37;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+}
+
+.form-label {
+    color: #D4AF37;
+    font-weight: 500;
+}
+
+
+/* ---- FOOTER ---- */
+.footer {
+    background-color: #0a0a0a;
+    border-top: 1px solid #D4AF37;
+}
